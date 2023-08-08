@@ -1,0 +1,40 @@
+body {
+    background-color: #6c757d;
+}
+.panel {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.question {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.option {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+button {
+    margin-right: 75px;
+    margin-top: 8%;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: red;
+    border: blue;
+    cursor: pointer;
+
+}
+#score {
+    font-size: 30px;
+    color: blue;
+}
